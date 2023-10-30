@@ -15,7 +15,7 @@ import App from "./App.vue";
 const redirecting = {
   template: "<div>redirecting</div>",
 };
-const redirectUri = "http://localhost:5173/redirect";
+const redirectUri = window.location + "/redirect";
 const clientId = "803892967a7f4bbcb137cbcd87dc78dd";
 
 const routes = [
@@ -26,8 +26,7 @@ const routes = [
   },
   { path: "/welcome", component: index },
   { path: "/lists", component: TopLists },
-  { path: "/playlist", component: playlist},
-  
+  { path: "/playlist", component: playlist },
 
   { path: "/artist/:id", component: Artist },
 
