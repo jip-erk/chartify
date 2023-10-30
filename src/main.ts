@@ -21,7 +21,7 @@ const clientId = "803892967a7f4bbcb137cbcd87dc78dd";
 const routes = [
   { path: "/manage", component: manage },
   {
-    path: "/",
+    path: "/*",
     component: LandingPage,
   },
   { path: "/welcome", component: index },
