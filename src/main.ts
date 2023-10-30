@@ -15,7 +15,7 @@ import App from "./App.vue";
 const redirecting = {
   template: "<div>redirecting</div>",
 };
-const redirectUri = window.location + "/redirect";
+const redirectUri = "https://graceful-buttercream-6c6054.netlify.app/redirect";
 const clientId = "803892967a7f4bbcb137cbcd87dc78dd";
 
 const routes = [

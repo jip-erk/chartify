@@ -7,7 +7,8 @@ export const useAuthStore = defineStore("auth", () => {
   const router = useRouter();
   const user = ref();
   const clientId = "803892967a7f4bbcb137cbcd87dc78dd";
-  const redirectUri = "http://localhost:5173/redirect";
+  const redirectUri =
+    "https://graceful-buttercream-6c6054.netlify.app/redirect";
 
   onMounted(async () => {
     await getProfile();
